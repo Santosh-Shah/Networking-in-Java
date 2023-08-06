@@ -41,6 +41,8 @@ public class IpAddressFinder {
     }
 
     public static void main(String[] args) {
+
+//        Q1) Create a GUI having textboxes and button that find IP address of given URL.
         new IpAddressFinder();
     }
 }
