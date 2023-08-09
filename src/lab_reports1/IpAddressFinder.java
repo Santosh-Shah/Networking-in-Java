@@ -2,7 +2,6 @@ package lab_reports1;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
-
 import javax.swing.*;
 
 public class IpAddressFinder {
@@ -42,7 +41,7 @@ public class IpAddressFinder {
 
     public static void main(String[] args) {
 
-//        Q1) Create a GUI having textboxes and button that find IP address of given URL.
+//        Q1) Create a GUI having text boxes and button that find IP address of given URL.
         new IpAddressFinder();
     }
 }

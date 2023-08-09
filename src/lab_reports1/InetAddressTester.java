@@ -1,8 +1,6 @@
 package lab_reports1;
 
 import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.Arrays;
@@ -91,6 +89,7 @@ public class InetAddressTester extends JFrame {
     }
 
     public static void main(String[] args) {
+//        Q2) Make a GUI and test any 10 methods of InetAddress class with 10 buttons[One button for one test]
         new InetAddressTester();
     }
 }

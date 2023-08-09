@@ -3,18 +3,9 @@ package lab_reports1;
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.net.InetAddress;
-import java.net.InterfaceAddress;
-import java.net.NetworkInterface;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
+import java.net.*;
+import java.util.*;
+import javax.swing.*;
 
 public class NetworkInterfaceGUI extends JFrame {
     private JTextArea textArea;
@@ -75,6 +66,8 @@ public class NetworkInterfaceGUI extends JFrame {
     }
 
     public static void main(String[] args) {
+
+//        Q3) Show the properties of network interface in a GUI FORM.
         NetworkInterfaceGUI gui = new NetworkInterfaceGUI();
         gui.showNetworkInterfaceProperties();
         gui.setVisible(true);
