@@ -1,17 +1,9 @@
 package lab_reports2;
 
-import java.awt.BorderLayout;
-import java.awt.FlowLayout;
-import java.awt.GridLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.net.URI;
-import java.net.URISyntaxException;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.net.*;
 
 public class URIApp extends JFrame implements ActionListener {
 //        Q2. Create a java GUI app to show the URI properties and perform normalization, resolution of URI.    }
