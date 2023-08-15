@@ -39,6 +39,7 @@ public class WebpageFetcher extends JFrame {
                 downloadWebpage();
             }
         });
+        setVisible(true);
     }
 
     private void downloadWebpage() {
